@@ -1,0 +1,39 @@
+
+/* display flex */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+
+/* display: inline-flex */
+.caja {
+    display: inline-flex;
+}
+
+.cajita {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+/* display grid */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.conte {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
